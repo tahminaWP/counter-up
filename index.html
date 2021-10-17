@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Counter Up</title>
+</head>
+<body>
+    
+    <div class="area">
+        <div class="box">
+            <div class="single-box">
+                <span class="counter">80</span>
+                <h4>Satisfactions</h4>
+            </div>
+            <div class="single-box">
+                <span class="counter">2316</span>
+                <h4>Satisfactions</h4>
+            </div>
+            <div class="single-box">
+                <span class="counter">8067</span>
+                <h4>Satisfactions</h4>
+            </div>
+            <div class="single-box">
+                <span class="counter">807</span>
+                <h4>Satisfactions</h4>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script>
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+</script>
+    
+</body>
+</html>
